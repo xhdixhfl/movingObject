@@ -44,4 +44,4 @@ for f in 'image.jpg', 'image1.jpg':
 image = Image.open('image.jpg)
 image1 = cv2.imread('image1.jpg)[..., : : -1] 
 # 모델 적용
-result = model([image,image1], size = 640)
+result = model([image,image1], size = 640) 
